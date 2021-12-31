@@ -76,7 +76,9 @@ Y|ACBI|Atlantic Capital Bancshares, Inc. - Common Stock|Q|Q|N|100|N|N||ACBI|N
 Y|ACC|American Campus Communities Inc Common Stock|N| |N|100|N||ACC|ACC|N
 Y|ACCD|Accolade, Inc. - common stock|Q|Q|N|100|N|N||ACCD|N
 Y|ACCO|Acco Brands Corporation Common Stock|N| |N|100|N||ACCO|ACCO|N
+Y|ACDI|Ascendant Digital Acquisition Corp. III Class A Ordinary Shares|N| |N|100|N||ACDI|ACDI|N
 Y|ACDI.U|Ascendant Digital Acquisition Corp. III Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant|N| |N|100|N||ACDI.U|ACDI=|N
+Y|ACDI.W|Ascendant Digital Acquisition Corp. III Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share|N| |N|100|N||ACDI.WS|ACDI+|N
 Y|ACEL|Accel Entertainment, Inc. |N| |N|100|N||ACEL|ACEL|N
 Y|ACER|Acer Therapeutics Inc. - Common Stock|Q|S|N|100|N|N||ACER|N
 Y|ACES|ALPS Clean Energy ETF|P| |Y|100|N||ACES|ACES|N
@@ -236,7 +238,9 @@ Y|AEVA.W|Aeva Technologies, Inc. Redeemable Warrants, each whole warrant exercis
 Y|AEY|ADDvantage Technologies Group, Inc. - Common Stock|Q|S|N|100|N|N||AEY|N
 Y|AEYE|AudioEye, Inc. - Common Stock|Q|S|N|100|N|N||AEYE|N
 Y|AEZS|Aeterna Zentaris Inc. - Common Stock|Q|S|N|100|N|D||AEZS|N
+Y|AFAC|Arena Fortify Acquisition Corp. - Class A Common Stock|Q|G|N|100|N|N||AFAC|N
 Y|AFACU|Arena Fortify Acquisition Corp. - Unit|Q|G|N|100|N|N||AFACU|N
+Y|AFACW|Arena Fortify Acquisition Corp. - Warrant|Q|G|N|100|N|N||AFACW|N
 Y|AFAQ|AF Acquisition Corp. - Common Stock|Q|S|N|100|N|N||AFAQ|N
 Y|AFAQU|AF Acquisition Corp. - Units|Q|S|N|100|N|N||AFAQU|N
 Y|AFAQW|AF Acquisition Corp. - Warrants|Q|S|N|100|N|N||AFAQW|N
@@ -837,9 +841,6 @@ Y|ATH$D|Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Int
 Y|ATHA|Athira Pharma, Inc. - Common Stock|Q|Q|N|100|N|N||ATHA|N
 Y|ATHE|Alterity Therapeutics Limited - American Depositary Shares|Q|S|N|100|N|N||ATHE|N
 Y|ATHM|Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.|N| |N|100|N||ATHM|ATHM|N
-Y|ATHN|Athena Technology Acquisition Corp. Class A Common Stock|N| |N|100|N||ATHN|ATHN|N
-Y|ATHN.U|Athena Technology Acquisition Corp. Units, each consisting of one share of Class A Common Stock and one-third of one Redeemable Warrant|N| |N|100|N||ATHN.U|ATHN=|N
-Y|ATHN.W|Athena Technology Acquisition Corp. Redeemable Warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50|N| |N|100|N||ATHN.WS|ATHN+|N
 Y|ATHX|Athersys, Inc. - Common Stock|Q|S|N|100|N|N||ATHX|N
 Y|ATI|Allegheny Technologies Incorporated Common Stock|N| |N|100|N||ATI|ATI|N
 Y|ATIF|ATIF Holdings Limited - Ordinary Shares|Q|S|N|100|N|N||ATIF|N
@@ -1131,7 +1132,9 @@ Y|BCOW|1895 Bancorp of Wisconsin, Inc. - Common Stock|Q|S|N|100|N|N||BCOW|N
 Y|BCPC|Balchem Corporation - Common Stock|Q|Q|N|100|N|N||BCPC|N
 Y|BCRX|BioCryst Pharmaceuticals, Inc. - Common Stock|Q|Q|N|100|N|N||BCRX|N
 Y|BCS|Barclays PLC Common Stock|N| |N|100|N||BCS|BCS|N
+Y|BCSA|Blockchain Coinvestors Acquisition Corp. I - Class A Ordinary Shares|Q|G|N|100|N|N||BCSA|N
 Y|BCSAU|Blockchain Coinvestors Acquisition Corp. I - Unit|Q|G|N|100|N|N||BCSAU|N
+Y|BCSAW|Blockchain Coinvestors Acquisition Corp. I - Warrant|Q|G|N|100|N|N||BCSAW|N
 Y|BCSF|Bain Capital Specialty Finance, Inc. Common Stock|N| |N|100|N||BCSF|BCSF|N
 Y|BCTX|BriaCell Therapeutics Corp. - Common Shares|Q|S|N|100|N|N||BCTX|N
 Y|BCTXW|BriaCell Therapeutics Corp. - Warrant|Q|S|N|100|N|N||BCTXW|N
@@ -1629,7 +1632,6 @@ Y|BTN|Ballantyne Strong, Inc. Common Stock|A| |N|100|N||BTN|BTN|N
 Y|BTNB|Bridgetown 2 Holdings Limited - Class A Ordinary Shares|Q|S|N|100|N|N||BTNB|N
 Y|BTO|John Hancock Financial Opportunities Fund Common Stock|N| |N|100|N||BTO|BTO|N
 Y|BTRS|BTRS Holdings Inc. - Class 1 Common Stock|Q|Q|N|100|N|N||BTRS|N
-Y|BTRSW|BTRS Holdings Inc. - Warrants|Q|S|N|100|N|N||BTRSW|N
 Y|BTT|BlackRock Municipal 2030 Target Term Trust|N| |N|100|N||BTT|BTT|N
 Y|BTTR|Better Choice Company Inc. Common Stock|A| |N|100|N||BTTR|BTTR|N
 Y|BTTX|Better Therapeutics, Inc. - Common Stock|Q|S|N|100|N|N||BTTX|N
@@ -1782,7 +1784,9 @@ Y|CBO|CBO (Listing Market - NYSE - Networks A/E) Common Stock|N| |N|100|Y||CBO|C
 Y|CBOE|Cboe Global Markets, Inc. Common Stock|Z| |N|100|N||CBOE|CBOE|N
 Y|CBON|VanEck China Bond ETF|P| |Y|100|N||CBON|CBON|N
 Y|CBRE|CBRE Group Inc Common Stock Class A|N| |N|100|N||CBRE|CBRE|N
+Y|CBRG|Chain Bridge I - Class A Ordinary Shares|Q|G|N|100|N|N||CBRG|N
 Y|CBRGU|Chain Bridge I - Units|Q|G|N|100|N|N||CBRGU|N
+Y|CBRGW|Chain Bridge I - Warrants|Q|G|N|100|N|N||CBRGW|N
 Y|CBRL|Cracker Barrel Old Country Store, Inc. - Common Stock|Q|Q|N|100|N|N||CBRL|N
 Y|CBSE|Changebridge Capital Sustainable Equity ETF|P| |Y|100|N||CBSE|CBSE|N
 Y|CBSH|Commerce Bancshares, Inc. - Common Stock|Q|Q|N|100|N|N||CBSH|N
@@ -1853,7 +1857,6 @@ Y|CDLX|Cardlytics, Inc. - Common Stock|Q|G|N|100|N|N||CDLX|N
 Y|CDMO|Avid Bioservices, Inc. - Common Stock|Q|S|N|100|N|N||CDMO|N
 Y|CDNA|CareDx, Inc. - Common Stock|Q|G|N|100|N|N||CDNA|N
 Y|CDNS|Cadence Design Systems, Inc. - Common Stock|Q|Q|N|100|N|N||CDNS|N
-Y|CDOR|Condor Hospitality Trust, Inc. Common Stock|A| |N|100|N||CDOR|CDOR|N
 Y|CDR|Cedar Realty Trust, Inc. Common Stock|N| |N|100|N||CDR|CDR|N
 Y|CDR$B|Cedar Realty Trust, Inc. 7.25% Series B Cumulative Redeemable Preferred Stock|N| |N|100|N||CDRpB|CDR-B|N
 Y|CDR$C|Cedar Realty Trust, Inc. 6.50% Series C Cumulative Redeemable Preferred Stock|N| |N|100|N||CDRpC|CDR-C|N
@@ -5048,6 +5051,8 @@ Y|HLBZW|Helbiz, Inc. - Warrant|Q|S|N|100|N|N||HLBZW|N
 Y|HLF|Herbalife Nutrition Ltd. Common Stock|N| |N|100|N||HLF|HLF|N
 Y|HLG|Hailiang Education Group Inc. - American Depositary Shares|Q|G|N|100|N|N||HLG|N
 Y|HLGE|Hartford Longevity Economy ETF|P| |Y|100|N||HLGE|HLGE|N
+Y|HLGN|Heliogen, Inc. Common Stock|N| |N|100|N||HLGN|HLGN|N
+Y|HLGN.W|Heliogen, Inc. Redeemable Warrants, each whole warrant exercisable for one share of Common Stock at an exercise price of $11.50|N| |N|100|N||HLGN.WS|HLGN+|N
 Y|HLI|Houlihan Lokey, Inc. Class A Common Stock|N| |N|100|N||HLI|HLI|N
 Y|HLIO|Helios Technologies, Inc. Common Stock|N| |N|100|N||HLIO|HLIO|N
 Y|HLIT|Harmonic Inc. - Common Stock|Q|Q|N|100|N|N||HLIT|N
@@ -6828,7 +6833,6 @@ Y|MFH|Mercurity Fintech Holding Inc. - American Depositary Shares|Q|S|N|100|N|N|
 Y|MFIN|Medallion Financial Corp. - Common Stock|Q|Q|N|100|N|N||MFIN|N
 Y|MFL|Blackrock MuniHoldings Investment Quality Fund Common Shares of Beneficial Interest|N| |N|100|N||MFL|MFL|N
 Y|MFM|MFS Municipal Income Trust Common Stock|N| |N|100|N||MFM|MFM|N
-Y|MFMS|Motley Fool Small-Cap Growth ETF|Z| |Y|100|N||MFMS|MFMS|N
 Y|MFUL|Mindful Conservative ETF|Z| |Y|100|N||MFUL|MFUL|N
 Y|MFUS|PIMCO Equitiy Series PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF|P| |Y|100|N||MFUS|MFUS|N
 Y|MFV|MFS Special Value Trust Common Stock|N| |N|100|N||MFV|MFV|N
@@ -8839,7 +8843,9 @@ Y|RCB|Ready Capital Corporation 6.20% Senior Notes due 2026|N| |N|100|N||RCB|RCB
 Y|RCC|Ready Capital Corporation 5.75% Senior Notes due 2026|N| |N|100|N||RCC|RCC|N
 Y|RCD|Invesco S&P 500 Equal Weight Consumer Discretionary ETF|P| |Y|100|N||RCD|RCD|N
 Y|RCEL|Avita Therapeutics, Inc. - Common Stock|Q|S|N|100|N|N||RCEL|N
+Y|RCFA|RCF Acquisition Corp. Class A Ordinary Shares|N| |N|100|N||RCFA|RCFA|N
 Y|RCFA.U|RCF Acquisition Corp. Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant|N| |N|100|N||RCFA.U|RCFA=|N
+Y|RCFA.W|RCF Acquisition Corp. Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share|N| |N|100|N||RCFA.WS|RCFA+|N
 Y|RCG|RENN Fund, Inc Common Stock|A| |N|100|N||RCG|RCG|N
 Y|RCHG|Recharge Acquisition Corp. - Class A Common Stock|Q|S|N|100|N|N||RCHG|N
 Y|RCHGU|Recharge Acquisition Corp. - Unit|Q|S|N|100|N|N||RCHGU|N
@@ -10419,8 +10425,11 @@ Y|TMDX|TransMedics Group, Inc. - Common Stock|Q|G|N|100|N|N||TMDX|N
 Y|TME|Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares|N| |N|100|N||TME|TME|N
 Y|TMF|Direxion Daily 20-Yr Treasury Bull 3x Shrs|P| |Y|100|N||TMF|TMF|N
 Y|TMFC|Motley Fool 100 Index ETF ETF|Z| |Y|100|N||TMFC|TMFC|N
+Y|TMFE|The RBB Fund, Inc. Motley Fool Capital Efficiency 100 Index ETF|P| |Y|100|N||TMFE|TMFE|N
 Y|TMFG|Motley Fool Global Opportunities ETF|Z| |Y|100|N||TMFG|TMFG|N
 Y|TMFM|Motley Fool Mid-Cap Growth ETF|Z| |Y|100|N||TMFM|TMFM|N
+Y|TMFS|Motley Fool Small-Cap Growth ETF|Z| |Y|100|N||TMFS|TMFS|N
+Y|TMFX|The RBB Fund, Inc. Motley Fool Next Index ETF|P| |Y|100|N||TMFX|TMFX|N
 Y|TMHC|Taylor Morrison Home Corporation Common Stock|N| |N|100|N||TMHC|TMHC|N
 Y|TMKR|Tastemaker Acquisition Corp. - Class A common stock|Q|S|N|100|N|N||TMKR|N
 Y|TMKRU|Tastemaker Acquisition Corp. - Unit|Q|S|N|100|N|N||TMKRU|N
@@ -11763,4 +11772,4 @@ Y|ZY|Zymergen Inc. - Common Stock|Q|Q|N|100|N|N||ZY|N
 Y|ZYME|Zymeworks Inc. Common Shares|N| |N|100|N||ZYME|ZYME|N
 Y|ZYNE|Zynerba Pharmaceuticals, Inc. - Common Stock|Q|G|N|100|N|N||ZYNE|N
 Y|ZYXI|Zynex, Inc. - Common Stock|Q|Q|N|100|N|N||ZYXI|N
-File Creation Time: 1230202121:32|||||
+File Creation Time: 1231202110:02|||||
