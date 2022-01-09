@@ -15,14 +15,14 @@ ansible -m shell -a "pkill -9 dask-scheduler" ansible; ansible -m shell -a "runu
 #ansible -m shell -a "pkill -9 dask-worker; pkill -9 dask-cuda-worker" slurm-w01
 ansible -m shell -a "pkill -9 dask-worker" slurmw; 
 #1st one is cuda
-#ssh slurm-w01 "runuser -l python_user -c 'CUDA_VISIBLE_DEVICES=0 /mnt/distvol/py39_jupyterlab/bin/dask-cuda-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'";
-ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --resources 'GPU=1' --name CUDA --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'";
-ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'";
-ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'";
-ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'";
-#ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'";
+#ssh slurm-w01 "runuser -l python_user -c 'CUDA_VISIBLE_DEVICES=0 /mnt/distvol/py39_jupyterlab/bin/dask-cuda-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=625MB >out.log 2>err.log &'";
+ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --resources 'GPU=1' --name CUDA --nprocs 1 --nthreads 1 --memory-limit=625MB >out.log 2>err.log &'";
+ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=625MB >out.log 2>err.log &'";
+ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=625MB >out.log 2>err.log &'";
+ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=625MB >out.log 2>err.log &'";
+#ssh slurm-w01 "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=625MB >out.log 2>err.log &'";
 #for a in "slurm-w01"; do ssh $a "runuser -l python_user -c 'CUDA_VISIBLE_DEVICES=0 /mnt/distvol/py39_jupyterlab/bin/dask-cuda-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'"; done
 #for a in "slurm-w01"; do ssh $a "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'"; done
 #for a in "slurm-w01"; do ssh $a "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'"; done
 #for a in "slurm-w01"; do ssh $a "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 1 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'"; done
-for a in "${array[@]}"; do ssh $a "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 4 --nthreads 1 --memory-limit=768MB >out.log 2>err.log &'"; done
+for a in "${array[@]}"; do ssh $a "runuser -l python_user -c '/mnt/distvol/py39_jupyterlab/bin/dask-worker tcp://192.168.3.100:8786 --nprocs 4 --nthreads 1 --memory-limit=625MB >out.log 2>err.log &'"; done
