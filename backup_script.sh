@@ -4,6 +4,6 @@ yes | cp -r /mnt/distvol/python_user/python_user/*.sh /mnt/distvol/dev/code/py_s
 
 cd /mnt/distvol/dev/code/py_sock_par/
 ssh -T git@github.com
-git add * .
+git add *
 git commit -m "updating"
 git push
