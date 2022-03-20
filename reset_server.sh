@@ -2,6 +2,8 @@
 
 #server
 #slurm-w01 has gpu prepended
+ansible -m shell -a "mount -t glusterfs pve0:/distvol /mnt/distvol/; ls /mnt/distvol/" slurmw
+
 array=('slurm-w02' 'slurm-w03' 'slurm-w04')
 
 #jupyter
